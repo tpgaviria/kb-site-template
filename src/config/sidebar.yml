@@ -1,0 +1,232 @@
+# Sidebar navigation
+
+- label: Getting Started
+  items:
+    - label: Introduction
+      link: /docs/introduction
+    - label: Glossary
+      link: /docs/glossary
+    - label: Quick Start Guide
+      link: /docs/quick-start-guide
+    - label: Navigating the Incidents Page
+      link: /docs/navigating-the-incidents-page
+    - label: 'Getting Started: Best Practices'
+      link: https://community.pagerduty.com/t/top-10-best-practice-tips/294
+    - label: Training Material
+      link: https://community.pagerduty.com/c/using-pagerduty/training-videos/28
+- label: Users and Permissions
+  items:
+    - label: Adding and Removing Users
+      link: /docs/users
+    - label: Import Users from a CSV
+      link: /docs/import-users-from-a-csv
+    - label: User Roles
+      link: '/docs/developer-docs'
+    - label: Advanced Permissions
+      link: '/docs/developer-docs'
+    - label: Configuring User Profiles
+      link: '/docs/developer-docs'
+    - label: Teams
+      link: '/docs/developer-docs'
+    - label: Contextual Search - Tagging
+      link: '/docs/developer-docs'
+    - label: Offboarding
+      link: '/docs/developer-docs'
+    - label: On-Call Readiness Reports
+      link: /docs/changelog
+- label: Schedules
+  items:
+    - label: Schedule Basics
+      link: /docs/users
+    - label: Editing Existing Schedules
+      link: /docs/import-users-from-a-csv
+    - label: Schedule Examples
+      link: '/docs/developer-docs'
+    - label: Schedules in Third-Party Apps
+      link: '/docs/developer-docs'
+- label: Escalation Policies
+  items:
+    - label: Escalation Policy Basics
+      link: '/docs/reporting'
+    - label: Escalation Policies and Schedules
+      link: '/docs/postmortems'
+    - label: My On-Call Shifts
+      link: '/docs/safelisting-ips'
+- label: Services and Integrations
+  items:
+    - label: Services and Integrations
+      link: /docs/generating-api-keys
+    - label: Service Profile
+      link: /docs/code-libraries
+    - label: Service Directory
+      link: /docs/generating-api-keys
+    - label: Maintenance Windows
+      link: /docs/code-libraries
+    - label: 'Best Practices: Service Configuration'
+      link: https://community.pagerduty.com/t/service-configuration-guide/1660
+    - label: Configurable Service Settings
+      link: /docs/code-libraries
+    - label: 'Email Management: Filters and Rules'
+      link: /docs/generating-api-keys
+    - label: Business Services
+      link: /docs/code-libraries
+    - label: Integrating PagerDuty with ITSM Tools
+      link: /docs/generating-api-keys
+- label: Incidents and Alerts
+  items:
+    - label: Incidents
+      link: /docs/incidents
+    - label: Editing Incidents
+      link: /docs/incidents
+    - label: Reassigning and Delegating Incidents
+      link: /docs/incidents
+    - label: Why Incidents Fail to Trigger
+      link: /docs/incidents
+    - label: Incident Priority
+      link: /docs/incidents
+    - label: Event Management
+      link: /docs/incidents
+    - label: Dynamic Notifications
+      link: /docs/incidents
+    - label: Rulesets
+      link: /docs/incidents
+    - label: Communicating with Stakeholders
+      link: /docs/incidents
+    - label: Alerts
+      link: /docs/incidents
+    - label: Mobilize and Coordinated Response
+      link: /docs/incidents
+    - label: Conference Bridge
+      link: /docs/incidents
+    - label: Add Responders
+      link: /docs/incidents
+    - label: Response Plays
+      link: /docs/incidents
+    - label: Status Dashboard
+      link: /docs/incidents
+    - label: Common Event Format (PD-CEF)
+      link: /docs/incidents
+- label: Notifications
+  items:
+    - label: Notification Content and Behavior
+      link: /docs/incidents
+    - label: Supported Countries
+      link: /docs/incidents
+    - label: Notification Phone Numbers
+      link: /docs/incidents
+    - label: Notification Settings
+      link: /docs/incidents
+    - label: Notification Troubleshooting
+      link: /docs/incidents
+- label: Analytics
+  items:
+    - label: Reporting
+      link: /docs/incidents
+    - label: Postmortems
+      link: /docs/incidents
+- label: Extensions and Add-ons
+  items:
+    - label: Extensions and Add-ons
+      link: /docs/incidents
+    - label: Webhooks
+      link: /docs/incidents
+    - label: Custom Incident Actions
+      link: /docs/incidents
+    - label: Signle Sign-On (SSO)
+      link: /docs/incidents
+    - label: Live Call Routing
+      link: /docs/incidents
+    - label: Apps
+      link: /docs/incidents
+- label: Mobile App
+  items:
+    - label: Using the Mobile App
+      link: /docs/incidents
+    - label: Mobile Release Notes
+      link: /docs/incidents
+    - label: Using Mobile Schedules
+      link: /docs/incidents
+    - label: Mobile Status Dashboard
+      link: /docs/incidents
+    - label: Mobile Notification Settings
+      link: /docs/incidents
+- label: Platform
+  items:
+    - label: What's New in PagerDuty
+      link: /docs/incidents
+    - label: Platform Release Notes
+      link: /docs/incidents
+    - label: System Requirements
+      link: /docs/incidents
+    - label: Integration Timeline
+      link: /docs/incidents
+    - label: PagerDuty Outage Notifications
+      link: /docs/incidents
+- label: Billing and Account Settings
+  items:
+    - label: Billing, Invoices, and Payments
+      link: /docs/incidents
+    - label: Form W-9
+      link: /docs/incidents
+    - label: Vendor Form
+      link: /docs/incidents
+    - label: Canceling an Account
+      link: /docs/incidents
+    - label: Account Ownership
+      link: /docs/incidents
+    - label: Account Subdomains
+      link: /docs/incidents
+    - label: Time Zone Settings
+      link: /docs/incidents
+- label: APIs
+  items:
+    - label: API Overview
+      link: https://v2.developer.pagerduty.com/docs/getting-started
+    - label: Generating API Keys
+      link: /docs/incidents
+    - label: Developer Documentation
+      link: https://v2.developer.pagerduty.com/docs
+    - label: API Client Libraries
+      link: https://developer.pagerduty.com/docs/tools-libraries/client-libraries/?utm_source=web&utm_campaign=kb_nav&utm_medium=link
+    - label: Safelisting IPs
+      link: /docs/incidents
+    - label: Third-Party Tools
+      link: /docs/incidents
+    - label: API Tools & Code Examples
+      link: https://developer.pagerduty.com/docs/tools-libraries/tools-projects/?utm_source=web&utm_campaign=kb_nav&utm_medium=link
+- label: Products
+  items:
+    - label: Event Intelligence
+      link: /docs/event-intelligence
+    - label: Intelligent Alert Grouping
+      link: /docs/incidents
+    - label: Preview Intelligent Alert Grouping
+      link: /docs/#
+    - label: Content Based Alert Grouping
+      link: /docs/#
+    - label: Time Based Alert Grouping
+      link: /docs/incidents
+    - label: Past Incidents
+      link: /docs/incidents
+    - label: Related Incidents
+      link: /docs/#
+    - label: PagerDuty Visibility
+      link: /docs/#
+    - label: Visibility Console
+      link: /docs/#
+    - label: Impact Metrics
+      link: /docs/#
+    - label: PagerDuty Visibility Best Practices
+      link: https://community.pagerduty.com/t/pagerduty-visibility-best-practices/3623
+    - label: PagerDuty Analytics
+      link: /docs/#
+    - label: Operational Reviews
+      link: /docs/#
+    - label: PagerDuty Analytics Best Practices
+      link: https://community.pagerduty.com/t/pagerduty-analytics-best-practices/3381
+    - label: PagerDuty Modern Incident Response
+      link: /docs/#
+- label: Integration Guides
+  items:
+    - label: Amazon CloudWatch Integration Guide
+      link: /docs/#
